@@ -1,149 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>Welcome!</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
 </head>
+
 <body>
+<nav class="navbar">
+    <!-- LOGO -->
 
-<div class="tab">
-    <button class="tablinks" onclick="openCity(Event, 'London')">London</button>
-    <button class="tablinks" onclick="openCity(Event, 'Paris')">Paris</button>
-    <button class="tablinks" onclick="openCity(Event, 'Tokyo')">Tokyo</button>
-</div>
+    <!-- NAVIGATION MENU -->
+    <ul class="nav-links">
 
-<!-- Tab content -->
-<div id="London" class="tabcontent">
-    <h3>London</h3>
-    <p>London is the capital city of England.</p>
-</div>
+        <!-- USING CHECKBOX HACK -->
+        <input type="checkbox" id="checkbox_toggle" />
+        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
 
-<div id="Paris" class="tabcontent">
-    <h3>Paris</h3>
-    <p>Paris is the capital of France.</p>
-</div>
+        <!-- NAVIGATION MENUS -->
+        <div class="menu">
 
-<div id="Tokyo" class="tabcontent">
-    <h3>Tokyo</h3>
-    <p>Tokyo is the capital of Japan.</p>
-</div>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
 
-<div class="header" id="headerwrap">
-    <div class="container">
-        <div class="row centered">
-            <div class="col-lg-12">
-                <h1>Lina Jin</h1>
-                <h3>What you do |
-                    <a href="mailto:You@Email.com">lina.jin@mail.utoronto.ca</a>
-                </h3>
-            </div><!--/.col-lg-12-->
-        </div><!--/.row-->
-    </div><!--/.container-->
-</div><!--/.#headerwrap-->
+            <li class="services">
+                <a href="/">Services</a>
 
-<section id="resume" name="resume"></section>
-<!-- EDUCATION SECTION -->
-<div class="container desc">
-    <div class="row">
+                <!-- DROPDOWN MENU -->
+                <ul class="dropdown">
+                    <li><a href="/">Dropdown 1 </a></li>
+                    <li><a href="/">Dropdown 2</a></li>
+                    <li><a href="/">Dropdown 2</a></li>
+                    <li><a href="/">Dropdown 3</a></li>
+                    <li><a href="/">Dropdown 4</a></li>
+                </ul>
 
-        <div class="col-lg-2 col-lg-offset-1">
-            <h5>EDUCATION</h5>
+            </li>
+
+            <li><a href="/">Pricing</a></li>
+            <li><a href="/">Contact</a></li>
         </div>
-        <!-- EDIT: education line 1 -->
-        <div class="col-lg-6">
-            <p><t>Bachelor of Awesomeness</t><br/>
-                University of Maryland
-                <!--<br/><i>Extra info here</i>-->
-            </p>
-        </div>
-        <div class="col-lg-3">
-            <p><sm>Expected SPRING 2015</sm><br/>
-                <imp><sm>IN PROGRESS</sm></imp>
-            </p>
-        </div>
-
-        <!-- EDIT: education line 2 -->
-        <div class="col-lg-6 col-lg-offset-3">
-            <p><t>Associate of Degrees </t><br/>
-                Lil 'ol College
-                <!--<br/><i>Extra info here</i>-->
-            </p>
-        </div>
-        <div class="col-lg-3">
-            <p><sm>JUNE 2012</sm></p>
-        </div>
-
-    </div><!--/.row -->
-    <br>
-    <hr>
-</div><!--/.container -->
-
-<!-- WORK SECTION -->
-<div class="container desc">
-    <div class="row">
-
-        <div class="col-lg-2 col-lg-offset-1">
-            <h5>WORK</h5>
-        </div>
-        <!-- EDIT: work line 1 -->
-        <div class="col-lg-6">
-            <p class="tight"><t>Position </t><br/>
-                Thatone Corp. <br/>
-            </p>
-            <p><more>Here's where you put a description of the position you held. Responsibilities, accomplishments - the same as you would do on a standard paper resume, but this will be online and look cooler.</more></p>
-        </div>
-        <div class="col-lg-3">
-            <p><sm>AUGUST 2012 - CURRENT <br />
-                CITY, STATE, COUNTRY</sm></p>
-        </div>
-
-        <!-- EDIT: work line 2-->
-        <div class="col-lg-6 col-lg-offset-3">
-            <p class="tight"><t>Previous Position</t><br/>
-                Another Organization Ltd. <br/>
-            </p>
-            <p><more>You worked at another job! Great! Describe waht you did there, include those responsibilities and accomplishments again.</more></p>
-        </div>
-        <div class="col-lg-3">
-            <p><sm>JUNE 2010 - JULY 2012 <br />
-                GOTHAM CITY, USA</sm></p>
-        </div>
-    </div><!--/.row -->
-    <br>
-    <hr>
-</div><!--/.container -->
-
-
-<!-- AWARDS SECTION -->
-<div class="container desc">
-    <div class="row">
-        <div class="col-lg-2 col-lg-offset-1">
-            <h5>AWARDS</h5>
-        </div>
-
-        <!-- EDIT: awards line 1-->
-        <div class="col-lg-6">
-            <p><t>Best Smile Award</t><br/>
-                Award-giving organization<br/>
-            </p>
-        </div>
-        <div class="col-lg-3">
-            <p><sm>NOVEMBER 2013</sm></p>
-        </div>
-
-        <!-- EDIT: awards line 2-->
-        <div class="col-lg-6 col-lg-offset-3">
-            <p class="tight"><t>Another award</t><br/>
-                Awards Site
-            </p>
-            <p><more>This award has a description. You won it eating pie. Or probably doing something more job-related. Maybe you won't even keep this section - you'll replace it with Skills or something else!</more></p>
-        </div>
-        <div class="col-lg-3">
-            <p><sm>2013</sm></p>
-        </div>
-
-    </div><!--/.row -->
-    <br>
-</div><!--/.container -->
-
+    </ul>
+</nav>
 </body>
+
 </html>
