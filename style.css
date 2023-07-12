@@ -42,6 +42,17 @@
 }
 /* UTILITIES */
 
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+.reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -185,6 +196,10 @@ li {
     color: #EBF1FF;
 }
 
+.footer-links img{
+    height: 28px;
+}
+
 .footer-links a:hover{
     color: #8FA2C4;
 }
@@ -228,6 +243,7 @@ input[type=checkbox] {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 50px;
 }
 .education-1 {
     float: right;
