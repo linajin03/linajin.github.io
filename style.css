@@ -66,7 +66,7 @@ hover a:hover{
 
 body {
     background-color: #8FA2C4;
-    font-family: Avenir Black, serif;
+    font-family: Avenir-Black, sans-serif;
     left: 10%;
 }
 
@@ -153,7 +153,7 @@ li {
 /* NAVBAR MENU */
 .menu {
     display: flex;
-    font-family: Avenir Black, serif;
+    font-family: Avenir-Black, sans-serif;
     text-align: right;
     align-items: center;
     justify-content: space-between;
@@ -181,7 +181,7 @@ li {
 .thank-you{
     text-align: center;
     color: #EBF1FF;
-    font-family: Avenir Black Oblique, serif;
+    font-family: Avenir-Black Oblique, sans-serif;
     font-size: 30px;
     padding-top: 20px;
 }
@@ -207,7 +207,7 @@ li {
 .copyright{
     text-align: right;
     color: #8FA2C4;
-    font-family: Avenir Heavy, serif;
+    font-family: Avenir-Heavy, sans-serif;
     font-size: 17px;
     padding-right: 20px;
     padding-bottom: 10px;
@@ -413,7 +413,7 @@ input[type=checkbox] {
 
 .subpage-header{
     text-align: center;
-    font-family: Avenir Black, serif;
+    font-family: Avenir-Black, sans-serif;
     color: #EBF1FF;
     font-size: 50px;
 }
@@ -425,7 +425,7 @@ input[type=checkbox] {
 .subpage-collage{
     display: flex;
     flex-wrap: wrap;
-    align-items: end;
+    align-items: baseline;
     padding-top: 20px;
     /*margin-left: 80px;*/
     /*margin-right: 80px;*/
@@ -441,6 +441,19 @@ input[type=checkbox] {
     height: 430px;
     object-fit: cover;
     padding: 20px;
+}
+
+.img-container span {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background: rgba(255,255,255,.8);
+}
+
+.img-container:hover span {
+    display: block
 }
 
 /* POST PAGE FORMATTING */
@@ -468,4 +481,30 @@ input[type=checkbox] {
     left: 40%;
     right: 40%;
     top: 63%;
+}
+
+.paragraph{
+    color: #EBF1FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: large;
+}
+
+.description{
+    margin-top: 80px;
+}
+
+.pages-images img{
+    width: 40%;
+    padding: 10px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pages-images{
+    margin-top: 20px;
+    margin-bottom: 60px;
 }
