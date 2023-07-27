@@ -147,6 +147,7 @@ li {
 .navbar img {
     float: left;
     width: 55%;
+    padding-left: 10px;
 }
 
 
@@ -422,38 +423,24 @@ input[type=checkbox] {
     text-align: center;
     color: #EBF1FF;
 }
-.subpage-collage{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
+.subpage-links{
     padding-top: 20px;
-    /*margin-left: 80px;*/
-    /*margin-right: 80px;*/
     padding-bottom: 40px;
-}
-.subpage-column{
-    flex: 10%;
-    padding: 3px;
+    margin-left: 40px;
 }
 
-.subpage-collage img{
-    width: 430px;
-    height: 430px;
-    object-fit: cover;
-    padding: 20px;
+.subpage-link{
+    font-size: 40px;
+    text-decoration: underline;
 }
 
-.img-container span {
-    display: none;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    padding: 10px;
-    background: rgba(255,255,255,.8);
+.subpage-date{
+    font-size: 20px;
+    padding-bottom: 20px;
 }
 
-.img-container:hover span {
-    display: block
+.subpage-links a:hover{
+    color: #152950;
 }
 
 /* POST PAGE FORMATTING */
@@ -472,6 +459,7 @@ input[type=checkbox] {
     left: 10%;
     right: 10%;
     top: 55%;
+    text-align: center;
 }
 
 .date{
