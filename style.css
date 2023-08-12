@@ -106,14 +106,17 @@ li {
 /*    color: #EBF1FF;*/
 /*}*/
 
-.link a, a:visited{
+.link a{
     color: #EBF1FF;
+    font-size: 2vmax;
 }
 
-/*.link a:hover{*/
-/*    color: #152950;*/
-/*    transition: 0.3s ease;*/
-/*}*/
+
+
+.link a:hover{
+    color: #152950;
+    transition: 0.3s ease;
+}
 
 /* NAVBAR STYLING STARTS */
 .navbar {
@@ -143,7 +146,7 @@ li {
 
 .navbar img {
     float: left;
-    width: 55%;
+    width: 20vmin;
     padding-left: 10px;
 }
 
@@ -375,11 +378,6 @@ input[type=checkbox] {
     padding-top: 3%;
 }
 
-.right-now-text-4{
-    padding: 3%;
-    font-size: 3vmax;
-}
-
 
 /* PROJECTS AND ARCHIVES TEMPLATE */
 .sub-body{
@@ -413,6 +411,22 @@ input[type=checkbox] {
 .subpage-link{
     font-size: 3vmax;
     text-decoration: underline;
+
+}
+
+.subpage-link a{
+    color: #EBF1FF;
+}
+
+.subpage-link a:visited{
+    color: #EBF1FF;
+}
+
+
+.subpage-link{
+    font-size: 3vmax;
+    text-decoration: underline;
+    color: #EBF1FF;
 }
 
 .subpage-date{
