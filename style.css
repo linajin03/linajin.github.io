@@ -68,6 +68,8 @@ body {
     background-color: #8FA2C4;
     font-family: Avenir-Black, sans-serif;
     left: 10%;
+    width: 100vw;
+    height: 100vh;
 }
 
 .sub-body{
@@ -243,6 +245,7 @@ input[type=checkbox] {
 .education{
     display: flex;
     align-items: center;
+
     justify-content: center;
     margin-top: 50px;
 }
@@ -440,7 +443,8 @@ input[type=checkbox] {
 }
 
 .subpage-links a:hover{
-    color: #152950;
+    color: #FFE6B9;
+    transition: 0.3s ease;
 }
 
 /* POST PAGE FORMATTING */
