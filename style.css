@@ -144,7 +144,7 @@ li {
 
 .navbar img {
     float: left;
-    width: 8rem;
+    width: 8em;
     padding-left: 10px;
 }
 
@@ -496,6 +496,10 @@ input[type=checkbox] {
 }
 
 @media only screen and (max-width: 600px) {
+    .navbar img{
+        width: 15vmax;
+        padding-left: 5%;
+    }
 
     .education{
         display: block;
