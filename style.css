@@ -146,9 +146,10 @@ li {
 
 .navbar img {
     float: left;
-    width: 20vmin;
+    width: 15vmin;
     padding-left: 10px;
 }
+
 
 
 /* NAVBAR MENU */
@@ -379,6 +380,18 @@ input[type=checkbox] {
 }
 
 
+.me-right-now a{
+    color: #EBF1FF;
+    text-decoration: none;
+}
+
+.me-right-now .right-now-text-4{
+    color: #EBF1FF;
+    font-size: 2vmax;
+    text-align: center;
+    padding: 2vmax;
+}
+
 /* PROJECTS AND ARCHIVES TEMPLATE */
 .sub-body{
     margin-left: 15%;
@@ -406,26 +419,20 @@ input[type=checkbox] {
     padding-top: 20px;
     padding-bottom: 40px;
     margin-left: 40px;
-}
-
-.subpage-link{
-    font-size: 3vmax;
-    text-decoration: underline;
-
+    color: #EBF1FF;
 }
 
 .subpage-link a{
     color: #EBF1FF;
 }
 
-.subpage-link a:visited{
+.subpage-date{
     color: #EBF1FF;
 }
 
 
-.subpage-link{
+.subpage-links a{
     font-size: 3vmax;
-    text-decoration: underline;
     color: #EBF1FF;
 }
 
